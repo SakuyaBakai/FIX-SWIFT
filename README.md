@@ -14,7 +14,7 @@ Swift là 1 client hack Roblox, được tạo bởi 0xcoredumped. **sUNC: 97% |
 ## **Cài đặt**
 
 Bạn **CẦN** tắt anti-virus, nếu không file sẽ không được tải xuống.
-1. Vào discord [Dyrian Communyti]([https://discord.gg/getswift](https://discord.gg/uVxRzKSy9m))
+1. Vào discord [Dyrian Community]([https://discord.gg/getswift](https://discord.gg/uVxRzKSy9m))
 2. Tải `swift-bootstrapper.exe` ở #┇executors 
 3. Xong rồi chỉ cần mở file lên là sẽ tự cài đặt.
 4. Xong rồi hãy đăng ký lấy key bla bla là xong.
