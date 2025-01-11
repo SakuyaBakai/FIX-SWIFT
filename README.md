@@ -1,188 +1,139 @@
-# A Guide to [Swift](https://getswift.xyz) Executor
+# Đây là hướng dẫn cách fix các lỗi ở client [Swift](https://getswift.xyz) 
 
-## Contents:
--   [About Swift](#about-swift)
--   [Installation](#installation)
--   [Bug Fixes](#bug-fixes)
--   [Known Issues](#known-issues)
--   [Script Developer Info](#script-developer-info)
+## Các thông tin cần biết:
+-   [Thông tin về Swift](#thông-tin-về-swift)
+-   [Cài đặt](#cài-đặt)
+-   [Fix lỗi](#fix-lỗi)
 
-## **About Swift**
-Swift is a multipurpose ROBLOX executor, created by 0xcoredumped. **sUNC: 97% | UNC: 96%**
+## **Thông tin về Swift**
+Swift là 1 client hack Roblox, được tạo bởi 0xcoredumped. **sUNC: 97% | UNC: 96%**
 
-**Official Website: https://getswift.xyz**\
-**Official Discord: https://discord.gg/getswift**
+**Website chính thức: https://getswift.xyz**
+**Discord chính thức: https://discord.gg/getswift**
 
-## **Installation**
+## **Cài đặt**
 
-You **MUST** disable your anti-virus, otherwise required files may not be downloaded properly. See [Disable Anti-Virus](#disabling-anti-virus)
+Bạn **CẦN** tắt anti-virus, nếu không file sẽ không được tải xuống. See [Disable Anti-Virus](#disabling-anti-virus)
 
-1. Join the [Swift Discord Server](https://discord.gg/getswift)
-2. Download `swift-bootstrapper.exe` from #download-here
-3. Once installed, double-click the bootstrapper file and wait for the files to copy.
-4. All Set! Now you have Swift.exe installed. You will have to sign up.
+1. Vào discord [Dyrian Communyti]([https://discord.gg/getswift](https://discord.gg/uVxRzKSy9m))
+2. Tải `swift-bootstrapper.exe` ở #┇executors 
+3. Xong rồi chỉ cần mở file lên là sẽ tự cài đặt.
+4. Xong rồi hãy đăng ký lấy key bla bla là xong.
 
-### **Signing up**
+### **Đăng ký**
 
-1. Obtain a key from https://getswift.xyz/real/0/0/0/0. See [Loot-Labs Issues](#loot-labs-not-working) for troubleshooting.
-2. Register with a **unique** username and password (make sure to remember the password!) and put your key in.
-3. You now have access to the Swift Executor! Note: Swift keys only last for a day. You will have to get a new one whenever it expires.
-4. (optional) In the discord server, run /linkdiscord to link your discord account to your swift account. This will help recovering your account.
+1. Lấy key tại [đây](https://getswift.xyz/real/0/0/0/0).
+2. Đăng ký bằng tài khoản mật khẩu của bạn vào và dán key bạn vừa lấy được vào dòng cuối.
+3. Thế là đăng ký thành công (key có hiệu lực 24h ae nhớ nhé)
 
-
-### **Disabling Anti-Virus**
-This assumes you have administrative privileges and do not have any other anti-virus software on your device besides Windows Defender.
-1. Open **Windows Settings** 
-2. Go to the **Privacy & Security** tab.
-3. Go to **Windows Security**
-4. Select **Virus & Threat Protection**
-5. Under **Virus & Threat Protection Settings** click **Manage Settings**
-6. Disable **Real-Time Protection**. You may need to input an admin password.
-7. Scroll down and disable **Tamper Protection**. You may need to input an admin password.
-
-Notes: 
-- The bootstrapper does **not** require administrative privileges, so Standard Accounts can run it
-- You will need to disable your Anti-Virus in order to install. Swift is completely safe to use. Anti-Virus scans show false-positives.
-- For the decompiler, read the [**Script Developer Info**](#script-developer-info)
-
-## **Bug Fixes**
+## **Fix lỗi**
 ### **The instance with the Selected PID doesn't exist**
-This means that Swift cannot find the ROBLOX Executable.\
-To fix this, click the ☁️ button at the bottom left of the Swift UI and select the current ROBLOX process.
+Điều này có nghĩa là Swift không thể tìm thấy ROBLOX Executable.\
+Để khắc phục lỗi này, hãy nhấp vào nút ☁️ ở góc dưới bên trái của Swift UI và chọn cái số jj đấy là được.
 
 ### **Bloxstrap Issues**
-Reinstall [Bloxstrap](https://github.com/bloxstraplabs/bloxstrap/releases/latest)
+Tải lại [Bloxstrap](https://github.com/bloxstraplabs/bloxstrap/releases/latest)
 
 
-### **Screen Black when injected**
-This is because of the C++ Drawing Library used by Swift.
-1. Download blackscreenfix.bat [**here**](https://nullstate.net/blackscreenfix.bat)
-2. Run `blackscreenfix.bat` normally. Do **not** run as Admin
-3. Bloxstrap will be automatically installed. Follow the instructions to install it.
-4. ROBLOX will not launch. Once you see a pop up on the `blackscreenfix.bat`, you can cancel Bloxstrap.
-5. Launch ROBLOX with the Bloxstrap Launcher.
-
-If this doesn't work, follow these instructions:
-1. Search for "Roblox" in the start menu
-2. Right Click & Open File Location.
-3. Right Click on Roblox Player & Open File Location
-4. Right Click on RobloxPlayerBeta -> Properties -> Compatibility
-5. Check **Disable Fullscreen Optimizations** is enabled.
+### **Màn đen khi inject**
+1. Tải blackscreenfix.bat [**Đây**]([https://nullstate.net/blackscreenfix.bat](https://gofile.io/d/igQQDZ))(có 2 bản cho nên là lưu ý)
+2. Chạy `blackscreenfix.bat` là oke
 
 ### **Injector.exe does not exist / Dll3.dll does not exist**
-1. Ensure the anti-virus is turned **off**.
-2. Delete all swift-related files (`bin`, `notbin`, `workspace`, `scripts`, `autoexec`, `swift-bootstrapper.exe`, `Swift.exe`)
-3. Press Win+R and type `%localappdata%` and delete the Swift folder (if it exists)
-4. Redownload the swift-bootstrapper.exe from #download-here in the main server.
-5. Kill any background apps with Task Manager (edge, explorer, spotify) and then try inject again.
+1. Kiểm tra anti virus đã **tắt** hay chưa.
+2. Xóa tất cả file (`bin`, `notbin`, `workspace`, `scripts`, `autoexec`, `swift-bootstrapper.exe`, `Swift.exe`)
+3. Ấn Win + R `%localappdata%` và xóa tất cả mọi thứ liên quan đêns Swift folder (nếu nó có)
+4. Tải lại swift boosttraper
+5. Khởi động lại và inject
 
 ### **HTTP Error 403**
-You must re-do the key system. Go to https://getswift.xyz/real/0/0/0/0
+Thử get lại key hoặc đồng bộ thời gian. Get key ở đây https://getswift.xyz/real/0/0/0/0
 
 ### **HTTP Error 400**
-1. Ensure the anti-virus is turned **off**.
-2. Delete all swift-related files (`bin`, `notbin`, `workspace`, `scripts`, `autoexec`, `swift-bootstrapper.exe`, `Swift.exe`)
-3. Press Win+R and type `%localappdata%` and delete the Swift folder (if it exists)
-4. Redownload the swift-bootstrapper.exe from #download-here in the main server.
+1. Kiểm tra anti virus đã **tắt** hay chưa.
+2. Xóa tất cả file (`bin`, `notbin`, `workspace`, `scripts`, `autoexec`, `swift-bootstrapper.exe`, `Swift.exe`)
+3. Ấn Win + R `%localappdata%` và xóa tất cả mọi thứ liên quan đêns Swift folder (nếu nó có)
+4. Tải lại swift boosttraper
+5. Khởi động lại và inject
 
 ### **You have been blocked by the owner (Website)**
-This is a Cloudflare rate limit. Wait 2 minutes and retry. If the issue persists, contact a support staff.
-
+Cloudflare bị quá tải. Đợi 2 3 phút và thử lại. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với staff.
 ### **Loot-Labs not working**
-1. Disable your VPN
-2. Disable Adblockers
-3. Use Edge
-4. Use Quad9 DNS (Watch the [**Tutorial**](https://youtube.com/watch?v=aujUl3yt6nM))
-5. Clear your Browser Cache (Watch the [**Tutorial**](https://youtube.com/watch?v=5jdDSjH7FN0))
+1. Tắt VPN của bạn
+2. Tắt Adblockers
+3. Sử dụng Edge
+4. Sử dụng Quad9 DNS (Xem [**Hướng dẫn**](https://youtube.com/watch?v=aujUl3yt6nM))
+5. Xóa bộ nhớ đệm của trình duyệt (Xem [**Hướng dẫn**](https://youtube.com/watch?v=5jdDSjH7FN0))
 
 ### **Cloudflare Captcha issue**
-1. Use Edge
-2. Open an InPrivate window (Ctrl+Shift+N)
-3. Retry
+1. Sử dụng Edge
+2. Mở cửa sổ InPrivate (Ctrl+Shift+N)
+3. Thử lại
 
 ### **VCRUNTIME140.DLL Not Found**
-Install [**vc_redist.x64.exe**](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+Tải [**vc_redist.x64.exe**](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
 ### **.NET SDK 6.0.0 for Bloxstrap**
-Install [**.NET SDK**](https://download.visualstudio.microsoft.com/download/pr/396abf58-60df-4892-b086-9ed9c7a914ba/eb344c08fa7fc303f46d6905a0cb4ea3/dotnet-sdk-6.0.428-win-x64.exe)
+Tải [**.NET SDK**](https://download.visualstudio.microsoft.com/download/pr/396abf58-60df-4892-b086-9ed9c7a914ba/eb344c08fa7fc303f46d6905a0cb4ea3/dotnet-sdk-6.0.428-win-x64.exe)
 
 ### **0x1 / auth.swift issues**
-Delete `auth.swift` from the `bin` folder, then relaunch and login.
+Xóa `auth.swift` khỏi `bin` folder, rồi mở lại swift và login.
 
 ### **0x4 (Bad Request)**
-1. Open Settings -> Time & Language -> Date & Time
-2. Ensure **Set Time Automatically** is enabled.
-3. Scroll down and click **Sync Now** under Additional Settings
+1. Đồng bộ thời gian
 
 ### **/notbin missing**
-1. Close Swift.
-2. Create a folder called `Swift`
-3. Move all Swift Files (`autoexec`, `bin`, `scripts`, `workspace`, `Swift.exe`) into the new folder
-4. Create a new folder called `notbin` inside `Swift`
-5. Drag the `swift_bootstrapper.exe` into the `Swift` folder and run it (You can get this from #download-here in the Discord Server.)
+1. Tắt Swift.
+2. Tạo một thư mục có tên là `Swift`
+3. Copy tất cả các tệp Swift (`autoexec`, `bin`, `scripts`, `workspace`, `Swift.exe`) vào thư mục mới
+4. Tạo một thư mục mới có tên là `notbin` bên trong `Swift`
+5. Kéo `swift_bootstrapper.exe` vào thư mục `Swift` và chạy nó
 
 ### **Status Code Not 200 (Roblox Version Error)**
-Update ROBLOX or Download [**Bloxstrap**](https://github.com/bloxstraplabs/bloxstrap/releases/latest)
+Update [**Bloxstrap**](https://github.com/bloxstraplabs/bloxstrap/releases/latest)
 
 ### **HWID Mismatch**
-1. Use `/linkdiscord` in the Discord Server
-2. Once done, run `/hwidreset`\
-If the issue persists, create a Support Ticket.
+1. Sử dụng `/linkdiscord` trong Discord Server
+2. Sau khi hoàn tất, hãy chạy `/hwidreset`\
+Nếu sự cố vẫn tiếp diễn, hãy tạo Phiếu hỗ trợ.
 
 ### **Successfully Injected but says Not Injected**
-1. Ensure the anti-virus is turned **off**.
-2. Delete all swift-related files (`bin`, `notbin`, `workspace`, `scripts`, `autoexec`, `swift-bootstrapper.exe`, `Swift.exe`)
-3. Press Win+R and type `%localappdata%` and delete the Swift folder (if it exists)
-4. Redownload the swift-bootstrapper.exe from #download-here in the main server.
-5. Kill any background apps with Task Manager (edge, explorer, spotify) and then try inject again.
+1. Kiểm tra anti virus đã **tắt** hay chưa.
+2. Xóa tất cả file (`bin`, `notbin`, `workspace`, `scripts`, `autoexec`, `swift-bootstrapper.exe`, `Swift.exe`)
+3. Ấn Win + R `%localappdata%` và xóa tất cả mọi thứ liên quan đêns Swift folder (nếu nó có)
+4. Tải lại swift boosttraper
+5. Khởi động lại và inject
 
 ### **VirtualProtectEX Error 487**
-This is because the memory address was not found, or there was not enough space.
-1. Ensure your windows is up-to-Date
-2. Reinstall ROBLOX/Bloxstrap fully (must need bloxstrap)
-3. Restart your PC
-4. Launch Swift.exe as Administrator
-5. Open bloxstrap and launch roblox.
+Nguyên nhân là do không tìm thấy địa chỉ bộ nhớ hoặc không đủ dung lượng.
+1. Đảm bảo Windows của bạn được cập nhật
+2. Cài đặt lại ROBLOX/Bloxstrap hoàn toàn (phải cần bloxstrap)
+3. Khởi động lại PC của bạn
+4. Khởi chạy Swift.exe với tư cách Quản trị viên
+5. Mở bloxstrap và khởi chạy roblox.
 6. Inject
 
 ### **Error Injecting DLL / Failed to open process**
-1. Ensure the anti-virus is turned **off**.
-2. Delete all swift-related files (`bin`, `notbin`, `workspace`, `scripts`, `autoexec`, `swift-bootstrapper.exe`, `Swift.exe`)
-3. Press Win+R and type `%localappdata%` and delete the Swift folder (if it exists)
-4. Redownload the swift-bootstrapper.exe from #download-here in the main server.
-5. Run it as administrator
-6. Kill any background apps with Task Manager (edge, explorer, spotify) and then try inject again.
-7. If that doesn't work, see [**Not executing script**](#not-executing-script)
+1. Kiểm tra anti virus đã **tắt** hay chưa.
+2. Xóa tất cả file (`bin`, `notbin`, `workspace`, `scripts`, `autoexec`, `swift-bootstrapper.exe`, `Swift.exe`)
+3. Ấn Win + R `%localappdata%` và xóa tất cả mọi thứ liên quan đêns Swift folder (nếu nó có)
+4. Tải lại swift boosttraper
+5. Khởi động lại và inject
 
 ### **Not executing script**
-1. Close ROBLOX and Swift
-2. Install [**DepsInstaller**](https://cdn.discordapp.com/attachments/1238624510543003709/1327319700572471337/DepsInstaller.exe?ex=6782a24d&is=678150cd&hm=7e9da446de077f254a07345f9bd886353885470621271d330cc08b6b2b08bf73&)
-3. Run as Administrator
-4. Wait for everything to download
-5. Restart your PC when the prompt is shown
-6. Open anti-virus settings, and make sure `real-time protection` and `tamper protection` are both **off**.
-7. Launch Swift as administrator
-8. Open the website version of Roblox and try attaching there.
+1. Kiểm tra anti virus đã **tắt** hay chưa.
+2. Xóa tất cả file (`bin`, `notbin`, `workspace`, `scripts`, `autoexec`, `swift-bootstrapper.exe`, `Swift.exe`)
+3. Ấn Win + R `%localappdata%` và xóa tất cả mọi thứ liên quan đêns Swift folder (nếu nó có)
+4. Tải lại swift boosttraper
+5. Khởi động lại và inject
+6. Kiên nhẫn thử 2 3 lần là được
 
-## **Known Issues**
 
 ### **Game Freezes on Teleport**
-Currently being investigated
+Chệu (swift nó lỗi)
 
 ### **Constant Crashes**
-Currently being investigated
-
-## **Script Developer Info**
-Swift documentation -> https://docs.getswift.xyz/api-reference
-
-Swift does not have a built-in decompiler, so you will have to install the **lua-lifter.exe** file in #changelogs (Added in 0.3.9 / Dec 24 2024).
-
-The following functions have not been found in the sUNC test.\
-❌ WebSocket.connect\
-❌ getconnections\
-❌ getcallbackvalue
-
-Data from [**voxlis.net**](https://voxlis.net/assets/unc/swift.json)
+Chệu (swift nó lỗi)
 
 
-Guide made by void | 109dg
+Guide made by void | 109dg (Viet hoa boi Sakuya Bakai)
