@@ -35,7 +35,7 @@ Tải lại [Bloxstrap](https://github.com/bloxstraplabs/bloxstrap/releases/late
 
 
 ### **Màn đen khi inject**
-1. Tải blackscreenfix.bat [**Đây**]([https://nullstate.net/blackscreenfix.bat](https://gofile.io/d/igQQDZ))(có 2 bản cho nên là lưu ý)
+1. Tải blackscreenfix.bat [**Đây**](https://gofile.io/d/igQQDZ))(có 2 bản cho nên là lưu ý)
 2. Chạy `blackscreenfix.bat` là oke
 
 ### **Injector.exe does not exist / Dll3.dll does not exist**
